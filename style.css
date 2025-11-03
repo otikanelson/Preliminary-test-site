@@ -16,17 +16,11 @@
 
 @font-face {
     font-family: 'helvetica';
-    src: url('../fonts/helvetica-255/helvetica-light-587ebe5a59211.ttf') format('truetype');
+    src: url('../fonts/helvetica-255/Helvetica-BoldOblique.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Libre';
-    src: url('../fonts/libre-baskerville/LibreBaskerville-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 .navbar {
     background-color: transparent;
@@ -59,7 +53,7 @@
 .navbar ul li a {
     color: #EAEAEA;
     text-decoration: none;
-    transition: color 0.5s;
+    transition: color 0.5s, border-bottom 0.5s;
     font-family: 'Libre', sans-serif;
 }
 
@@ -119,7 +113,7 @@ div h2 + p {
 }
 
 .section-heading {
-    font-family: 'Autumn', cursive;
+    font-family: 'Autumn';
     color: #00BCD4;
     font-size: 2.5em;
     border-bottom: 2px solid #FFC72C;
@@ -128,8 +122,8 @@ div h2 + p {
 }
 
 .section-heading p{
-    font-family: 'Autumn', cursive;
-
+    font-family: 'Autumn';
+    font-size: 1.2em;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
 }
